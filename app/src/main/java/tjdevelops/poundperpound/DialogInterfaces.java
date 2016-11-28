@@ -7,6 +7,6 @@ import android.content.DialogInterface;
  */
 
 interface StringInputDialog {
-    public void onStringPositive(DialogInterface dialogInterface);
-    public void onStringNegative(DialogInterface dialogInterface);
+    public void onStringPositive(DialogInterface dialogInterface, String input);
+    public void onStringNegative(DialogInterface dialogInterface, String input);
 }

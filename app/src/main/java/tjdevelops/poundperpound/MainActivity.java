@@ -1,10 +1,13 @@
 package tjdevelops.poundperpound;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.Toast;
 import android.view.MenuItem;
 import android.content.DialogInterface;
 import android.support.v7.widget.Toolbar;
+import tjdevelops.poundperpound.record.Profile;
 
 public class MainActivity extends BaseActivity implements StringInputDialog {
 
@@ -13,11 +16,15 @@ public class MainActivity extends BaseActivity implements StringInputDialog {
         return true;
     }
 
-    public void onStringPositive(DialogInterface dialog) {
-
+    public void onStringPositive(DialogInterface dialog, String input) {
+        Profile profile = new Profile(input);
+        profile.save();
+        Context appContext = getApplicationContext();
+        String profileCreated = getString(R.string.feedback_profile_created);
+        Toast.makeText(appContext, R.string.feedback_profile_created).show();
     }
 
-    public void onStringNegative(DialogInterface dialog) {
+    public void onStringNegative(DialogInterface dialog, String input) {
         dialog.cancel();
     }
 

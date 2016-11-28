@@ -8,4 +8,6 @@
     <string name="create_profile">Create Profile</string>
 
     <string name="prompt_profile_name">Enter a profile name</string>
+
+    <string name="feedback_profile_created">Profile created!</string>
 </resources>
