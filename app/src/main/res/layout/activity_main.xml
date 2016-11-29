@@ -13,4 +13,8 @@
         android:background="@android:color/holo_red_light"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

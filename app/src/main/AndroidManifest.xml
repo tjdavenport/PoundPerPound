@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <meta-data android:name="DATABASE" android:value="poundperpound.db"></meta-data>
-        <meta-data android:name="VERSION" android:value="1"></meta-data>
+        <meta-data android:name="VERSION" android:value="3"></meta-data>
         <meta-data android:name="QUERY_LOG" android:value="false"></meta-data>
         <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="tjdevelops.poundperpound.record"></meta-data>
-        <activity android:name=".MainActivity">
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
