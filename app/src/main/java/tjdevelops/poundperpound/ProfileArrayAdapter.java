@@ -34,6 +34,7 @@ public class ProfileArrayAdapter extends ArrayAdapter<Profile> {
 
         TextView profileLabel = (TextView) convertView.findViewById(android.R.id.text1);
         profileLabel.setText(profile.getName());
+        profileLabel.setWidth(parent.getWidth());
 
         return convertView;
     }

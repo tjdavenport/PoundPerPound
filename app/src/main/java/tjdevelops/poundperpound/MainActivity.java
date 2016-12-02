@@ -53,7 +53,7 @@ public class MainActivity extends BaseActivity implements StringInputDialog {
         this.profileListView = (ListView) findViewById(R.id.profileList);
         setSupportActionBar(this.mainToolbar);
         List<Profile> profileList = Profile.listAll(Profile.class);
-        this.profileAdapter = new ProfileArrayAdapter(this, android.R.layout.simple_list_item_activated_1, profileList);
+        this.profileAdapter = new ProfileArrayAdapter(this, android.R.layout.simple_selectable_list_item, profileList);
         this.profileListView.setAdapter(this.profileAdapter);
     }
 
