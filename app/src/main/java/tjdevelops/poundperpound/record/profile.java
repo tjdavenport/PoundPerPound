@@ -18,4 +18,8 @@ public class Profile extends SugarRecord {
         this.name = name;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
 }

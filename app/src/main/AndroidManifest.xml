@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:name="com.orm.SugarApp"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/AppTheme">
         <meta-data android:name="DATABASE" android:value="poundperpound.db"></meta-data>
         <meta-data android:name="VERSION" android:value="3"></meta-data>
         <meta-data android:name="QUERY_LOG" android:value="false"></meta-data>
