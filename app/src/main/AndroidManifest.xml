@@ -13,12 +13,14 @@
         <meta-data android:name="VERSION" android:value="3"></meta-data>
         <meta-data android:name="QUERY_LOG" android:value="false"></meta-data>
         <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="tjdevelops.poundperpound.record"></meta-data>
-        <activity android:name="MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".JournalActivity">
+
         </activity>
     </application>
 

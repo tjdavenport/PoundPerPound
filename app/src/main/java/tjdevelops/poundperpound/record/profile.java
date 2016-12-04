@@ -9,6 +9,7 @@ import com.orm.SugarRecord;
 public class Profile extends SugarRecord {
 
     String name;
+    public static final String KEY_ID = "profile_id";
 
     public Profile() {
 

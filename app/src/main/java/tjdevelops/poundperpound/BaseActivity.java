@@ -8,4 +8,5 @@ public class BaseActivity extends AppCompatActivity {
         StringInputDialogFragment frag = StringInputDialogFragment.newInstance(titleId);
         frag.show(getFragmentManager(), "dialog");
     }
+
 }
